@@ -1,0 +1,13 @@
+module Half_Adder(cout, sum, A,B, cin);
+input A,B,cin;
+output reg cout, sum;
+
+always@(A,B,cin)begin
+
+	
+
+end
+
+
+
+endmodule

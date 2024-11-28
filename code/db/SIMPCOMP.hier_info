@@ -1,0 +1,47 @@
+|Block1
+Z <= inst18.DB_MAX_OUTPUT_PORT_TYPE
+Y0 => inst13.IN0
+X0 => FA:inst3.I1
+Cin => FA:inst3.Cin
+Y2 => inst15.IN0
+X2 => FA:inst1.I1
+Y1 => inst14.IN0
+X1 => FA:inst2.I1
+Y3 => inst16.IN0
+X3 => FA:inst.I1
+N <= FA:inst.sum
+V <= inst17.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|FA:inst3
+I0 => Add0.IN1
+I1 => Add0.IN2
+Cin => Add1.IN4
+sum <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|FA:inst1
+I0 => Add0.IN1
+I1 => Add0.IN2
+Cin => Add1.IN4
+sum <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|FA:inst2
+I0 => Add0.IN1
+I1 => Add0.IN2
+Cin => Add1.IN4
+sum <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|FA:inst
+I0 => Add0.IN1
+I1 => Add0.IN2
+Cin => Add1.IN4
+sum <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+
+

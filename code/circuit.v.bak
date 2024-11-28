@@ -1,0 +1,13 @@
+module circuit(cout, sum, A, B, cin, sel);
+	
+	input A, B, cin, sel;
+	
+	output sum, cout;
+	
+	
+	mux2to1()
+	
+
+
+
+endmodule

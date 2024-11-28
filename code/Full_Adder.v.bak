@@ -1,0 +1,13 @@
+module Full_Adder(cout, sum, A,B, cin);
+
+input A,B,cin;
+output sum, cout;
+wire firstCarry, firstSum, secondCarry;
+
+c Half_Adder(firstCarry, firstSum, A, B);
+b Half_Adder(secondCarry, sum , firstSum, cin);
+a AND(cout, firstCarry, secondCarry);
+
+
+
+endmodule 
